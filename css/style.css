@@ -21,7 +21,6 @@ a {
 
 .pmorenews {
     margin: 5px;
-    /* border: 1px solid black; */
     padding: 3px;
     line-height: 1.5;
 }
@@ -31,7 +30,7 @@ a {
 }
 
 body {
-    background-color: #79C9EE;
+    background-color: #e0e7ff;
     
 }
 
@@ -40,7 +39,7 @@ header {
     width: 100%;
     min-width: 1024px;
     margin: auto;
-    background-color: #0D0D6B;
+    background-image: linear-gradient(to bottom, #4f46e5, #1e1b4b);
     height: 130px;
     text-align: center; 
     padding-top: 20px;
@@ -63,16 +62,16 @@ nav li {
 
 nav a {
     color: white;
-    padding: 5px;
+    padding: 10px;
     margin: 4px;
 }
 
 nav li:hover, nav a:hover {
     margin: 0 0 -2px 0;
-    color: black;
-    background-color: white;
+    color: white;
+    background-image: linear-gradient(to bottom, #6366f1, #4f46e5);
     transform: scale(1.2);
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 main {
@@ -83,7 +82,7 @@ main {
 }
 
 #news {
-    border-radius: 15px;
+    border-radius: 7px;
     display: block;
     margin: 0 20px 20px 0;
     background-color: white;
@@ -92,7 +91,7 @@ main {
 }
 
 #morenews {
-    border-radius: 15px;
+    border-radius: 7px;
     background-color: white;
     padding: 15px;
     width: 240px;
@@ -114,7 +113,7 @@ main {
 footer, footer a {
     width: 100%;
     min-width: 1024px;
-    background-color: #0606C4;
+    background-image: linear-gradient(to bottom, #4f46e5, #1e1b4b);
     height: 40px;
     text-align: center;
     line-height: 40px;
